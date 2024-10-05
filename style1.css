@@ -1,0 +1,12 @@
+.hlight {
+    background-color: rgb(255, 255, 255);
+}
+.bg {
+    background-color: rgb(239, 235, 230); 
+    border-color: rgb(94, 35, 35);
+}
+.ket {
+    color: rgb(69, 57, 57);
+    background-color: aliceblue;
+    font-size: 127%;
+}

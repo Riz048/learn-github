@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Presensi</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <form action="#">
+        <fieldset class="bg">
+            <legend class="ket">Rizya Humaira 241402048</legend>
+            <table>
+                <tr>
+                    <td><label  class="hlight"  for="mail">Email</label></td>
+                    <td><input type="email" id="mail"><br></td>
+                </tr>
+                <tr>
+                    <td><label class="hlight" for="name">Username</label></td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label class="hlight"  for="number">NIM</label></td>
+                    <td><input type="number" id="number"><br></td>
+                </tr>
+                <tr>
+                    <td><label class="hlight"  for="pass">Password</label></td>
+                    <td><input type="password" id="pass"></td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><label class="hlight" for="mapel">Mata Pelajaran</label></td>
+                    <td><input type="checkbox" name="mapel">Pengantar Teknologi Informasi</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="mapel">Dasar Pemrograman</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="mapel">Matematika Dasar</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="mapel">Pemrograman Web</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="mapel">Organisasi dan Arsitektur Komputer</td>
+                </tr>
+                <tr>
+                    <td><label class="hlight" for="kom">Kelas</label></td>
+                    <td><select id="kom">
+                            <option>-- Kom-Tahun --</option>
+                            <option>A-22</option>
+                            <option>B-22</option>
+                            <option>C-22</option>
+                            <option>A-23</option>
+                            <option>B-23</option>
+                            <option>C-23</option>
+                            <option>A-24</option>
+                            <option>B-24</option>
+                            <option>C-24</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label class="hlight" for="tanggal">Tanggal</label></td>
+                    <td><input type="date" id="tanggal"></td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><label class="hlight" class="hlight" for="presensi">Kehadiran</label></td>
+                    <td><input type="radio" name="presensi" id="hadir">
+                        <label for="hadir">Hadir</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="presensi" id="sakit">
+                        <label for="sakit">Sakit</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="presensi" id="izin">
+                        <label for="izin">Izin</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label class="hlight" for="ket">Keterangan</label></td>
+                    <td><textarea rows="4" id="ket" input placeholder="jika hadir, tidak perlu mengisi" name="ket"></textarea><br></td>
+                </tr>
+            </table>
+        </fieldset>
+        &nbsp;&nbsp;&nbsp;<input type="button" onclick="alert('Terima kasih sudah mengisi absen.')" value="Daftar">
+        <input type="reset" value="Ulang">
+    </form>
+</body>
+
+</html>
